@@ -16,6 +16,7 @@ struct ContentView: View {
                 NavigationLink { PickerAnimation() } label: { Text("Picker animation glitch") }
                 NavigationLink { SheetIgnoresPresentation() } label: { Text("Sheet Ignores Presentation") }
                 NavigationLink { MaterialOverlayLag() } label: { Text("Material Overlay Lag") }
+                NavigationLink { ContextPreviewSizeBug() } label: { Text("Context Preview Size Bug") }
             }
         }
     }
