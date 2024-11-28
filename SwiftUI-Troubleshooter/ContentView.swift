@@ -15,6 +15,7 @@ struct ContentView: View {
                 NavigationLink { TabViewScrollPositionBug() } label: { Text("TabView Position Bug") }
                 NavigationLink { PickerAnimation() } label: { Text("Picker animation glitch") }
                 NavigationLink { SheetIgnoresPresentation() } label: { Text("Sheet Ignores Presentation") }
+                NavigationLink { MaterialOverlayLag() } label: { Text("Material Overlay Lag") }
             }
         }
     }
