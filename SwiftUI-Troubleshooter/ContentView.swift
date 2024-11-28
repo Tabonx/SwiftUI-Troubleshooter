@@ -13,6 +13,8 @@ struct ContentView: View {
             List {
                 NavigationLink { ContextPreviewBug() } label: { Text("Context Preview Bug") }
                 NavigationLink { TabViewScrollPositionBug() } label: { Text("TabView Position Bug") }
+                NavigationLink { PickerAnimation() } label: { Text("Picker animation glitch") }
+                NavigationLink { SheetIgnoresPresentation() } label: { Text("Sheet Ignores Presentation") }
             }
         }
     }
