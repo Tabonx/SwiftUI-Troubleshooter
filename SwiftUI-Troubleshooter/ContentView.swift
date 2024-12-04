@@ -17,6 +17,7 @@ struct ContentView: View {
                 NavigationLink { SheetIgnoresPresentation() } label: { Text("Sheet Ignores Presentation") }
                 NavigationLink { MaterialOverlayLag() } label: { Text("Material Overlay Lag") }
                 NavigationLink { ContextPreviewSizeBug() } label: { Text("Context Preview Size Bug") }
+                NavigationLink { ScrollViewTextJitter() } label: { Text("Scroll text jitter") }
             }
         }
     }
