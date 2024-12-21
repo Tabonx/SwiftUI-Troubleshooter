@@ -18,6 +18,7 @@ struct ContentView: View {
                 NavigationLink { MaterialOverlayLag() } label: { Text("Material Overlay Lag") }
                 NavigationLink { ContextPreviewSizeBug() } label: { Text("Context Preview Size Bug") }
                 NavigationLink { ScrollViewTextJitter() } label: { Text("Scroll text jitter") }
+                NavigationLink { ListItemContextMenu() } label: { Text("List Context Menu") }
             }
         }
     }
